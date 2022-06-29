@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo na tela </title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size:cover;
+            background-attachment: fixed;*/
+
+            /* shorthand - background
+              color > image > position > repeat >[-size]
+              > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid rgba(0, 0, 139, 0.555);
@@ -28,7 +36,7 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, vero. Illum quasi odio, distinctio quos impedit consectetur veritatis commodi, ipsum veniam consequatur quo iste deserunt officiis eaque necessitatibus neque? Quam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nulla rerum nesciunt fuga quibusdam unde cupiditate qui. Excepturi eveniet, possimus aut tempora laudantium dolor voluptatibus omnis consequatur quia dicta quisquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. At porro molestiae maiores maxime numquam eveniet quasi, repellat iusto ducimus in alias sapiente recusandae labore minima pariatur voluptas temporibus omnis! Perspiciatis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, vero. Illum quasi odio, distinctio quos impedit consectetur veritatis commodi, ipsum veniam consequatur quo iste deserunt officiis eaque necessitatibus neque? Quam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nulla rerum nesciunt fuga quibusdam unde cupiditate qui. Excepturi eveniet, possimus aut tempora laudantium dolor voluptatibus omnis consequatur quia dicta quisquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. At porro molestiae maiores maxime numquam eveniet quasi, repellat iusto ducimus in alias sapiente recusandae labore minima pariatur voluptas temporibus omnis! Perspiciatis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur necessitatibus quis perspiciatis magnam cupiditate est sunt, ad, quos sint vel distinctio voluptatibus suscipit repellendus consequatur cum modi atque, ullam totam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste doloremque at nemo distinctio dolor et! Soluta molestias fugit, alias nulla corrupti voluptas, excepturi est distinctio, praesentium ipsam ea expedita culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit neque, alias doloribus, expedita totam soluta inventore ipsa magni quas ad modi voluptatibus quis veniam illo itaque quia dolore molestiae quidem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita a harum quia temporibus exercitationem ad! Amet beatae ullam mollitia corporis, fugiat maxime dolores perspiciatis excepturi unde aperiam voluptates eos aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eveniet, incidunt, natus accusantium ad doloremque voluptatem distinctio repellendus, eum cum pariatur nulla ex autem reiciendis aperiam dolorum rerum tempore commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate omnis repellat minima voluptas qui in, similique ea tempora aperiam, magni cum aut. Aspernatur id perspiciatis modi aut vero odit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati accusamus provident, sapiente, aspernatur repellendus inventore recusandae asperiores facere, sed repudiandae consectetur? Harum praesentium sequi, libero consectetur natus aliquam nisi qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero necessitatibus, cum, cumque eum deserunt ut vitae alias quia omnis beatae odio animi at earum vel harum voluptate quas explicabo obcaecati.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure animi reiciendis facere dolores? Incidunt debitis, quos, omnis fugit sed in quo odio sit explicabo laudantium, accusamus sint sunt non quibusdam.</p>
     </main>
 </body>
 </html>
